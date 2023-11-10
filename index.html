@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_style.css">
+    <title>Just Married</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@600&family=Poppins:wght@600&family=Shadows+Into+Light&display=swap');
+    </style>
+</head>
+<body>
+    <h1>Certificate of Marriage</h1>
+
+    <form>
+        <h2>This is to certify that</h2>
+        
+        <label for="name1">Person 1:</label>
+        <input type="text" id="name1" name="name1" placeholder="Enter Name 1">
+    
+        <label for="name2">Person 2:</label>
+        <input type="text" id="name2" name="name2" placeholder="Enter Name 2"><br><br>
+    
+        <button type="button" id="generateButton">Let's Get Married!</button><br><br>
+
+        <div id="marriageMessage"></div>
+    </form>
+    
+    <h3 id="congratulationsMessage">Congratulations to the Newlyweds!</h3>
+
+    <script src="index.js"></script>
+</body>
+</html>
