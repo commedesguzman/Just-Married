@@ -1,4 +1,3 @@
-// Wrap your JavaScript code in a window.onload event to ensure the DOM is fully loaded before executing the script.
 window.onload = function() {
   function generateMessage() {
       const name1 = document.getElementById("name1").value;
@@ -23,10 +22,9 @@ window.onload = function() {
 
       document.getElementById("marriageMessage").innerHTML = marriageMessage;
 
-      // Show the congratulations message
+      
       document.getElementById("congratulationsMessage").style.display = "block";
   }
   
-  // Attach the generateMessage function to the button click event.
   document.getElementById("generateButton").onclick = generateMessage;
 }
